@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fifty 2 | Project PKK</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- Link cdn Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./image/logo.png" alt="logo">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Fifty 2</span>
+                    <span class="profession">Sistem Inventaris</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="profile">
+                    <a href="#">
+                        <i class='bx bx-user icon' ></i>
+                        <span class="text nav-text">Profile</span>
+                    </a>
+                </li>
+                <ul class="menu-link">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu-link">
+                    <li class="nav-link active">
+                        <a href="#" class="data-induk">
+                            <i class='bx bx-data icon' ></i>
+                            <span class="text nav-text">Data Induk</span>
+                            <i class='bx bx-chevron-down arrow-dropdown' ></i>
+                        </a>
+                    </li>
+                    <ul class="sub-menu close">
+                        <li><a href="./kategori.html">Kategori</a></li>
+                        <li><a href="./barang.html">Barang</a></li>
+                        <li><a href="#">Barang Masuk</a></li>
+                        <li><a href="#">Barang Keluar</a></li>
+                    </ul>
+                </ul>
+                <ul class="menu-link">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu-link">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="logout">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+            </div>
+
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="text">Laravel CRUD | Kategori</div>
+        <div class="table-style">
+            <div class="table-feature">
+                <h1>Detail Kategori</h1>
+            </div>
+            <table>
+                <tr>
+                  <th>Keterangan</th>
+                  <th>Barang</th>
+                </tr>
+                <tr>
+                  <td>ID</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                    <td>Deskripsi</td>
+                    <td>Alat</td>
+                </tr>
+                <tr>
+                    <td>Kategori</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Keterangan</td>
+                    <td>Alat</td>
+                </tr>
+            </table>
+
+            <div class="button-place">
+                <button class="show-back">
+                    <a href="./barang.html">Back</a>
+                </button>
+            </div>
+        </div>
+          
+    </section>
+    
+    <script src="script/script.js"></script>
+
+</body>
+</html>
